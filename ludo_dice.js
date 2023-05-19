@@ -1,7 +1,8 @@
-// const getRandomNum =(a,b)=>{
-//     return Math.floor(Math.random()* (b- a+1)+ a);
-// }
+// Ludo_dice random number/ লুডু ছক্কা  
 
-// console.log(getRandomNum(1,6));
+const getRandomNum =(a,b)=>{
+    return Math.floor(Math.random()* (b- a+1)+ a);
+}
 
-console.log(Math.ceil(Math.random()*10));
+console.log(getRandomNum(1,6));
+
