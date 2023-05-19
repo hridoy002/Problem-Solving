@@ -1,3 +1,5 @@
+// Find Leap year 
+
 const leap_year = (year) =>{
     if(year%400===0){
         return year+''+' is a leap year';
@@ -13,4 +15,4 @@ const leap_year = (year) =>{
     }
 }
 
-console.log(leap_year(2003));
+console.log(leap_year(2028));
